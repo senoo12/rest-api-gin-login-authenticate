@@ -12,6 +12,7 @@ func main()  {
 
 	r.POST("/api/register", controllers.Register)
 	r.POST("/api/login", controllers.Login)
+	r.POST("/api/logout", controllers.Logout)
 
 	r.Run()
 }
